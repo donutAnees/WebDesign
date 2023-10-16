@@ -6,7 +6,7 @@ export default function Navlist() {
       <ul className="flex">
         {item.map((i, index) => {
           return (
-            <button key={index} className="px-6 text-xs hover:text-pink-300">
+            <button key={index} className="px-3 md:px-6 text-xs hover:text-pink-300">
               {i}
             </button>
           );

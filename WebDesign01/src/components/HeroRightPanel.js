@@ -1,9 +1,9 @@
 export default function HeroRightPanel() {
   return (
-    <div>
-      <div className=" mt-32 ml-80 bg-gradient-to-t from-green-200 to-orange-200 rounded-3xl p-0.5">
+    <div className="relative flex flex-row-reverse items-center justify-center md:justify-start w-full md:w-6/12 md:mr-10 h-60 md:mt-20">
+      <div className="bg-gradient-to-t from-green-200 to-orange-200 rounded-3xl p-0.5">
         <div className="text-white font-light bg-primary rounded-3xl">
-          <div className="bg-white bg-opacity-20 p-4 rounded-3xl">
+          <div className="bg-white bg-opacity-20 p-4 rounded-3xl text-center">
             Agency that build many <br />
             amazing product to boost
             <br />

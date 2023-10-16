@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="bg-white bg-opacity-20 rounded-3xl max-w-6xl mx-auto h-auto">
         <GradientBorder />
         <Navbar />
-        <div className="flex flex-row">
+        <div className="flex md:flex-row flex-col">
           <HeroLeftPanel />
           <HeroRightPanel />
         </div>
